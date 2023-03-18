@@ -121,7 +121,7 @@ body{
 }
 
 
-/*----------------MAIN PAGE SECTION-one---------------*/
+/*----------------MAIN PAGE SECTION---------------*/
 
 .main {}
 
@@ -140,7 +140,7 @@ body{
 
 
 .main-btn {
-    font-family: 'Roboto';
+    font-family: "Roboto",sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -152,14 +152,20 @@ body{
     cursor: pointer;
 }
 
-.main-btn:hover,
-.main-btn:active {
+.main-btn:hover {
     background: var(--brandblue-color);
 }
+
+.main-btn:focus {
+    background: var(--brandblue-color);
+}
+
 
 /*----------------SECTION-two---------------*/
 
 .main-section-two {}
+
+.main-two-title{}
 
 .main-two-list {}
 
@@ -189,12 +195,12 @@ body{
 .main-section-three {}
 
 .main-three-title {
-        font-size: 36px;
-        line-height: 1.11;
-        text-align: center;
-        letter-spacing: 0.02em;
-        text-transform: capitalize;
-        color: var(--brand-color);
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--brand-color);
 }
 
 .main-three-list {}
