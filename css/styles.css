@@ -127,7 +127,7 @@ text-decoration: none;
 .main {}
 
 .main-section {
-    background: var(--brand-color);
+    background-color: var(--brand-color);
 }
 
 .main-title {
@@ -245,14 +245,16 @@ text-decoration: none;
         color: var(--rand-color);
 }
 
-/*----------------PORTFOLIO SECTION-a---------------*/
+/*----------------PORTFOLIO SECTION---------------*/
+.main {}
 
-.main-a {}
+.main-section {}
 
-.main-section-a {}
+.title {}
 
-.main-btn-a {
-    font-family: 'Roboto';
+.main-btn-portfolio { 
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -260,41 +262,42 @@ text-decoration: none;
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
-    color:var(--blue-color);
+    color: var(--blue-color);
+    cursor: pointer;
 }
 
-.main-btn-a:hover {
-color: var(--white-color);
-background: var(--brandblue-color);
-cursor: pointer;
+.main-btn-portfolio:hover{
+ color: var(--white-color);
+ background-color: var(--brandblue-color);
 }
 
-/*----------------PORTFOLIO SECTION-b---------------*/
+.heading {}
 
-.main-section-b {}
-
-.main-list-b {}
+.main-list {}
 
 .list {}
 
-.main-item-b {
-    background: var(--white-color);
+.main-item {}
+
+.main-title {
+    font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--brand-color);
 }
 
-.main-title-b {
-    font-size: 20px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color:var(--brand-color);
+.main-text {
+    font-family: 'Roboto',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--rand-color);
 }
-
-.main-text-b {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--rand-color);
-}
-
 
 /*----------------FOOTER---------------*/
 .footer { background-color: var(--brand-color);}
