@@ -8,6 +8,7 @@ body{
     list-style: none;
 }
 
+
 :root {
     --brand-color:#2E2F42;
     --rand-color:#434455;
@@ -26,7 +27,7 @@ body{
 }
 
 .header-logo link{
-  text-decoration: none;
+text-decoration: none;
 }
 
 .header-logo {
@@ -296,10 +297,25 @@ cursor: pointer;
 
 
 /*----------------FOOTER---------------*/
-.footer {background: var(--brand-color)}
+.footer { background-color: var(--brand-color);}
 
 .footer-logo {
-    font-family: 'Raleway';
+        font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--blue-color);
+}
+
+.footer-span {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -308,12 +324,8 @@ cursor: pointer;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color:var(--brandwhite-color);
-    text-decoration: none;
 }
 
-.footer-logo span {
-    color:var(--blue-color);
-}
 
 .footer-text {
     font-weight: 400;
