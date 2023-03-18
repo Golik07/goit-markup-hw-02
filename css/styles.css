@@ -266,16 +266,17 @@ text-decoration: none;
     letter-spacing: 0.04em;
     color: var(--blue-color);
     cursor: pointer;
+    background-color: var(--brandwhite-color);
 }
 
 .main-btn-portfolio:focus{
     color:var(--white-color);
-    background-color:var(var--brandblue-color);
+    background-color:var(--brandblue-color);
 }
 
 .main-btn-portfolio:hover{
  color: var(--white-color);
- background-color: var(--brandblue-color);
+background-color: var(--brandblue-color);
 }
 
 .heading-portfolion {}
