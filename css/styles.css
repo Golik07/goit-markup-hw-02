@@ -248,9 +248,9 @@ text-decoration: none;
 /*----------------PORTFOLIO SECTION---------------*/
 .main {}
 
-.main-section {}
+.main-section-portfolion {}
 
-.title {}
+.title-portfolion {}
 
 .main-item-portfolion
 
@@ -273,15 +273,15 @@ text-decoration: none;
  background-color: var(--brandblue-color);
 }
 
-.heading {}
+.heading-portfolion {}
 
-.main-list {}
+.main-list-portfolion {}
 
 .list {}
 
-.main-item {}
+.main-item.portfolion {}
 
-.main-title {
+.main-title.portfolion {
     font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 500;
@@ -291,7 +291,7 @@ text-decoration: none;
         color: var(--brand-color);
 }
 
-.main-text {
+.main-text-portfolion {
     font-family: 'Roboto',sans-serif;
         font-style: normal;
         font-weight: 400;
