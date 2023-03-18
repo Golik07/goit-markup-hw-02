@@ -82,7 +82,7 @@ body{
     color:var(--brandblue-color);
 }
 
-.header-contact {
+.header-address {
     font-style: normal;
 }
 
@@ -90,7 +90,7 @@ body{
 
 .header-item{}
 
-.header-mail {
+.header-contact {
     text-decoration: none;
     font-weight: 400;
     font-size: 16px;
@@ -99,11 +99,11 @@ body{
     color: var(--rand-color);
 }
 
-.header-mail:hover {
+.header-contact:hover {
     color: var(--brandblue-color);
 }
 
-.header-phone {
+.header-contact {
     text-decoration: none;
     font-weight: 400;
     font-size: 16px;
@@ -112,7 +112,7 @@ body{
     color: var(--rand-color);
 }
 
-.header-phone:hover {
+.header-contact:hover {
     color: var(--brandblue-color);
 }
 
