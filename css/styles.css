@@ -303,6 +303,14 @@ text-decoration: none;
         color: var(--rand-color);
 }
 
+.main-link-portfolion{
+
+}
+
+.link{
+    text-decoration: none;
+}
+
 /*----------------FOOTER---------------*/
 .footer { background-color: var(--brand-color);}
 
