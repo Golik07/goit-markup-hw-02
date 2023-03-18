@@ -74,11 +74,14 @@ body{
         text-decoration: none;
 }
 
-.header-link:hover{
+.header-link:hover,
+.header-link:focus{
     color: var(--brandblue-color);
 }
 
-.header-contact {}
+.header-contact {
+    font-style: normal;
+}
 
 .header-list{}
 
@@ -86,7 +89,6 @@ body{
 
 .header-mail {
     text-decoration: none;
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.50;
@@ -100,7 +102,6 @@ body{
 }
 
 .header-phone {
-    font-style: normal;
     text-decoration: none;
     font-weight: 400;
     font-size: 16px;
