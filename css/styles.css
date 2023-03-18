@@ -269,14 +269,10 @@ text-decoration: none;
     background-color: var(--brandwhite-color);
 }
 
-.main-btn-portfolio:focus{
+.main-btn-portfolio:focus,
+.main-btn-portfolio:hover{
     color:var(--white-color);
     background-color:var(--brandblue-color);
-}
-
-.main-btn-portfolio:hover{
- color: var(--white-color);
-background-color: var(--brandblue-color);
 }
 
 .heading-portfolion {}
