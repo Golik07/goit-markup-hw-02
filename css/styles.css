@@ -116,6 +116,10 @@ body{
     color: var(--brandblue-color);
 }
 
+.header-contact:focus{
+    color:var(--brandblue-color)
+}
+
 
 /*----------------MAIN PAGE SECTION-one---------------*/
 
