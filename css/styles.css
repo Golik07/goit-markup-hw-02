@@ -74,9 +74,12 @@ body{
         text-decoration: none;
 }
 
-.header-link:hover,
-.header-link:focus{
+.header-link:hover{
     color: var(--brandblue-color);
+}
+
+.header-link:focus{
+    color:var(--brandblue-color);
 }
 
 .header-contact {
@@ -96,8 +99,7 @@ body{
     color: var(--rand-color);
 }
 
-.header-mail:hover,
-.header-mail:focus {
+.header-mail:hover {
     color: var(--brandblue-color);
 }
 
