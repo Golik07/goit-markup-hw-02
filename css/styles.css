@@ -256,12 +256,12 @@ text-decoration: none;
 
 .main-item-portfolion{
     font-family: 'Roboto',sans-serif;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color:var(--brand-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:var(--brand-color);
 }
 
 .main-btn-portfolio { 
