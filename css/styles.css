@@ -282,16 +282,16 @@ text-decoration: none;
 
 .list {}
 
-.main-item.portfolion {}
+.main-item-portfolion {}
 
-.main-title.portfolion {
-    font-family: 'Roboto', sans-serif;
+.main-title-portfolion {
+    font-family: 'Roboto',sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--brand-color);
+    color:var(--brand-color);
 }
 
 .main-text-portfolion {
